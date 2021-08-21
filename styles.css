@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root{
+    --primary-color: #3183e7;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-image: url("./images/background1.jpg");
+    background-attachment:  fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1, p{
+    padding: 0.5em;
+}
+
+header p{
+    color: gold;
+    font-weight: 600;
+}
+
+.about{
+    padding: 1.5em;
+}
+
+form{
+    padding: 2em;
+    margin: 1em auto;
+    width: 35%;
+    box-shadow: 0 0 8px #6b7280;
+    border-radius: 5px;
+    background-color: white;
+}
+
+label{
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+input{
+    width: 100%;
+    margin: 2em auto;
+    padding: 1em;
+    border: unset;
+    border-radius: 4px;
+    box-shadow: 0 0 8px #6b7280;
+    outline-color: var(--primary-color);
+}
+
+button{
+    border: unset;
+    margin: 1em auto;
+    padding: 1em 2em;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    cursor: pointer;
+}
+
+.output{
+    padding: 1em;
+    border: 2px solid var(--primary-color);
+    font-weight: 600;
+    margin: 1em;
+}
+
+ul{
+    padding: 1em;
+}
+
+  
+li {
+    display: inline;
+    padding: 0.5em;
+    list-style: none;
+}
+  
+i{
+    color: black;
+}
